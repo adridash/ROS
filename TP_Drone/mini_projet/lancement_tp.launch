@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<launch>
+
+  <node pkg="mini_projet" name="altitude" type="altitude.py"> </node>
+  <node pkg="mini_projet" name="srv_mode" type="srv_mode.py"> </node>
+  <node pkg="mini_projet" name="control" type="control.py"> </node>
+  <node pkg="rqt_gui" name="rqt" type="rqt_gui"> </node>
+
+</launch>
